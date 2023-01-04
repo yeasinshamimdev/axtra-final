@@ -1,3 +1,5 @@
+import Counter from "../../common/counter";
+
 export default function AwardArea7() {
     return (
         <section className="award__area-7 pb-140">
@@ -6,8 +8,7 @@ export default function AwardArea7() {
                     <div className="col-xxl-12">
                         <div className="award__top-7">
                             <div className="award__counter fade_bottom_2">
-                                <h2 className="counter__number">25k</h2>
-                                <p>Project completed</p>
+                            <Counter start={0} end={25} k={true} t1={null} t2={null} title={"Project completed"}/> 
                             </div>
                             <div className="award-video-7">
                                 <video loop muted autoPlay playsInline>

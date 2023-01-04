@@ -1,4 +1,5 @@
 import React from 'react';
+import Counter from '../common/counter';
 
 const TeamCounterArea = () => {
     return (
@@ -10,23 +11,19 @@ const TeamCounterArea = () => {
                     <div className="col-xxl-12">
                         <div className="counter__wrapper-2">
                             <div className="counter__item-2">
-                                <h2 className="counter__number">25k</h2>
-                                <p>Project  <br />completed</p>
+                            <Counter start={0} end={25} k={true} t1={"Project"} t2={"completed"} />
                                 <span className="counter__border"></span>
                             </div>
                             <div className="counter__item-2">
-                                <h2 className="counter__number">8k</h2>
-                                <p>Happy  <br />customers</p>
+                            <Counter start={0} end={8} k={true} t1={"Happy"} t2={"customers"} />
                                 <span className="counter__border"></span>
                             </div>
                             <div className="counter__item-2">
-                                <h2 className="counter__number">15</h2>
-                                <p>Years  <br />experiences</p>
+                            <Counter start={0} end={15} k={false} t1={"Years"} t2={"experiences"} />
                                 <span className="counter__border"></span>
                             </div>
                             <div className="counter__item-2">
-                                <h2 className="counter__number">98</h2>
-                                <p>Awards  <br />achievement</p>
+                            <Counter start={0} end={98} k={false} t1={"Awards"} t2={"achievement"} />
                                 <span className="counter__border"></span>
                             </div>
                         </div>

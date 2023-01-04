@@ -1,9 +1,9 @@
 /***************************************************
 ==================== JS INDEX ======================
 ****************************************************
-00. Preloader
+00. Preloader jq
 01. Cursor Animations
-02. Offcanvas
+02. Offcanvas jq
 03. Scroll Top
 04. Modals
 05. Header 1
@@ -14,9 +14,9 @@
 10. Roll Slider
 11. Workflow Slider
 12. Team Slider
-13. Testimonial Slider
-14. Testimonial Slider 3
-15. Portfolio Slider
+13. Testimonial Slider jq
+14. Testimonial Slider 3 jq
+15. Portfolio Slider jq
 16. Service 1
 17. Counter
 18. Button Hover Animation
@@ -68,7 +68,7 @@
 64. Header 7
 65. Service 7 Animation
 ****************************************************/
-
+ 
 (function ($) {
   "use strict";
 
@@ -605,29 +605,29 @@
 
   /////////////////////////////////////////////////////
   // 17. Counter
-  const about_counter = window.counterUp.default
-  const about_cb = entries => {
+  // const about_counter = window.counterUp.default
+  // const about_cb = entries => {
 
-    entries.forEach(entry => {
-      const el = entry.target
-      if (entry.isIntersecting && !el.classList.contains('is-visible')) {
-        about_counter(el, {
-          duration: 1000,
-          delay: 16,
-        })
-        el.classList.add('is-visible')
-      }
-    })
-  }
+  //   entries.forEach(entry => {
+  //     const el = entry.target
+  //     if (entry.isIntersecting && !el.classList.contains('is-visible')) {
+  //       about_counter(el, {
+  //         duration: 1000,
+  //         delay: 16,
+  //       })
+  //       el.classList.add('is-visible')
+  //     }
+  //   })
+  // }
 
-  const IO = new IntersectionObserver(about_cb, {
-    threshold: 1
-  })
+  // const IO = new IntersectionObserver(about_cb, {
+  //   threshold: 1
+  // })
 
-  const els = document.querySelectorAll('.counter__number');
-  els.forEach((el) => {
-    IO.observe(el)
-  });
+  // const els = document.querySelectorAll('.counter__number');
+  // els.forEach((el) => {
+  //   IO.observe(el)
+  // });
   /////////////////////////////////////////////////////
 
 

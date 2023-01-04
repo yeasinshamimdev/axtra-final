@@ -1,7 +1,11 @@
 import Link from "next/link";
-import HomeCtaArea from "../cta/homeCtaArea";
+import { useState } from "react";
+ import HomeCtaArea from "../cta/homeCtaArea";
+ import Counter from "../../common/counter";
 
 export default function WorkflowArea() {
+    const [countOn, setCountOn] = useState(false)
+
     return (
         <section className="workflow__area-3">
             <div className="workflow__wrapper-3">
@@ -80,26 +84,25 @@ export default function WorkflowArea() {
                                 </div>
                             </div>
                         </div>
+
                         <div className="row">
                             <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+
                                 <div className="counter__wrapper-3">
                                     <div className="counter__item-3">
-                                        <h2 className="counter__number">25k</h2>
-                                        <p>Project <br />completed</p>
+                                        <Counter start={0} end={25} k={true} t1={"Project"} t2={"completed"} />
                                     </div>
                                     <div className="counter__item-3">
-                                        <h2 className="counter__number">8k</h2>
-                                        <p>Happy <br />customers</p>
+                                        <Counter start={0} end={8} k={true} t1={"Happy"} t2={"customers"} />
                                     </div>
                                     <div className="counter__item-3">
-                                        <h2 className="counter__number">15</h2>
-                                        <p>Years <br />experiences</p>
+                                        <Counter start={0} end={15} k={false} t1={"Years"} t2={"experiences"} />
                                     </div>
                                     <div className="counter__item-3">
-                                        <h2 className="counter__number">98</h2>
-                                        <p>Awards <br />achievement</p>
+                                        <Counter start={0} end={98} k={false} t1={"Awards"} t2={"achievement"} />
                                     </div>
                                 </div>
+
                             </div>
                             <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
                                 <div className="counter__img-3">
@@ -107,6 +110,7 @@ export default function WorkflowArea() {
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
                 {/* CTA area start */}

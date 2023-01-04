@@ -26,7 +26,7 @@ export default function Index7({ mode }) {
             <Head>
                 {/* Fav Icon */}
                 <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
-                <title>Home - Startup Agency</title>
+                <title>Home - Creative Agency</title>
 
                 {
                     bgMode === "dark" ?
