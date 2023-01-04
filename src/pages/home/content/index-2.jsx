@@ -44,7 +44,7 @@ export default function Index2({ mode }) {
                             <script src="assets/js/chroma.min.js" async />
                             <script src="assets/js/jquery.meanmenu.min.js" async />
                             <script src="assets/js/main.js" async />
-                            <script src="assets/js/progressbar.js" async />
+                            <script src="assets/js/progressbar.js" async /> 
                             <script src="assets/js/TweenMax.min.js" async />
                         </> :
                         <>

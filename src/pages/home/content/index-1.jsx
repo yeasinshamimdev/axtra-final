@@ -33,7 +33,7 @@ export default function Index1({ mode }) {
                             <script src="assets/js/jquery-3.6.0.min.js" async />
                             <script src="assets/js/bootstrap.bundle.min.js" async />
                             <script src="assets/js/swiper-bundle.min.js" async />
-                            <script src="assets/js/counter.js" async />
+                            {/* <script src="assets/js/counter.js" async /> */}
                             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" async />
                             <script type="text/javascript" src="assets/js/gsap.min.js" async />
                             <script src="assets/js/ScrollTrigger.min.js" async />
@@ -50,7 +50,7 @@ export default function Index1({ mode }) {
                             <script src="assets/js/jquery-3.6.0.min.js" async />
                             <script src="assets/js/bootstrap.bundle.min.js" async />
                             <script src="assets/js/swiper-bundle.min.js" async />
-                            <script src="assets/js/counter.js" async />
+                            {/* <script src="assets/js/counter.js" async /> */}
                             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" async />
                             <script type="text/javascript" src="assets/js/gsap.min.js" async />
                             <script src="assets/js/ScrollTrigger.min.js" async />
